@@ -12,6 +12,7 @@
 
 <div class="container">
     <H1>Welcome</H1>
+    <button><a href="dash.php">Bypass login</a></button> <!-- bypass login this is for testing purposes -->
     <div   class="form-box ">
       <div class="ad">
         <img src="image/viktor-forgacs-0JokpSkuBeU-unsplash.jpg" alt="" srcset="">

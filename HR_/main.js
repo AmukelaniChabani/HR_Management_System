@@ -10,3 +10,12 @@ if (togglePasswordBtn) {
         this.src = isPassword ? 'image/eye_open.svg' : 'image/eye_closed.svg';
     });
 }
+
+//// Sidebar toggle functionality
+document.getElementById("menuBtn").addEventListener("click", function() {
+    document.getElementById("sidebar").classList.add("active");
+});
+
+document.getElementById("closeSidebar").addEventListener("click", function() {
+    document.getElementById("sidebar").classList.remove("active");
+});
