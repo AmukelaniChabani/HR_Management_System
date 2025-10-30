@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -32,7 +32,7 @@
     <!-- Header -->
     <header>
         <button id="menuBtn"><i class="fas fa-bars"></i></button>
-        <h1>Welcome User to the HRM</h1>
+        <h1>Welcome User to the HRM </h1>
         <div class="user-info">
             <i class="fas fa-bell"></i>
             <i class="fas fa-user-circle"></i>
@@ -43,9 +43,36 @@
     <div class="container">
         <p>What would you like to do today?</p>
 
-        <div class="form-box">
-            <p>Example form area — add your content here.</p>
+        <div class="collection">
+            
+             <div class="form-box">
+            <h3> Active<br>Employees</h3>
+
         </div>
+
+         <div class="form-box">
+            <H3>Employees <br> Vacation</H3>
+
+        </div>
+
+        <div class="form-box">
+            <H3>Former <br> Employees</H3>
+
+        </div>
+
+        <div class="form-box">
+            <H3>Employees  <br>PayRoll</H3>
+
+        </div>
+
+        </div>
+        
+         <div class="form-box">
+            <H3>Employees  <br>PayRoll</H3>
+
+        </div>
+
+       
     </div>
 
     <script src="main.js"></script>

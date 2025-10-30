@@ -2,12 +2,13 @@
 
 :root {
     --button-bg: #FF2929;
-    --text-color: #fff;
-    --bg-color: #000000;
+    --text-color: #000000;
+    --bg-color: #ffffff;
     --button-hover: #a3afab;
-    --sidebar-bg: #111;
+    --sidebar-bg: #ffffff;
     --highlight: #FF2929;
-    --shadow: 0 0 10px rgb(255, 0, 255);
+    --shadow: 0 0 10px rgb(100, 96, 96);
+
 }
 
 * {
@@ -18,7 +19,7 @@
 }
 
 body {
-    background-image: url(image/viktor-forgacs-0JokpSkuBeU-unsplash.jpg);
+    background-image: url(image/jack-b-8Wqm1W59Baw-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -31,10 +32,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: var(--bg-color);
     padding: 15px 25px;
     box-shadow: var(--shadow);
 }
+
 
 header h1 {
     font-size: 24px;
@@ -115,14 +117,16 @@ header .user-info i {
 }
 
 .sidebar ul li:hover {
-    background-color: #222;
+    background-color: var(--highlight);
 }
 
 /* MAIN CONTAINER */
 .container {
-    margin: 40px auto;
-    max-width: 600px;
-    background: rgba(0, 0, 0, 0.7);
+    
+    
+    
+    margin: calc();
+    background: rgba(255, 255, 255, 0);
     padding: 25px;
     border-radius: 10px;
     box-shadow: var(--shadow);
@@ -132,7 +136,7 @@ header .user-info i {
 .form-box {
     margin-top: 20px;
     padding: 25px;
-    background-color: #000000;
+    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: var(--shadow);
 }
@@ -151,4 +155,11 @@ button {
 
 button:hover {
     background: var(--button-hover);
+}
+
+.collection{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 74px;
 }
